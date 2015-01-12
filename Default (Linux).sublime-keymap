@@ -1,0 +1,36 @@
+[
+    { "keys": ["backspace"], "command": "smart_brackets_remove" }
+    // { "keys": ["delete"], "command": "smart_brackets_remove", "args": {"left_delete": false} },
+
+    // { "keys": ["enter"], "command": "move",
+    //  "args": {"by": "characters", "forward": true},
+ //         "context":
+ //         [
+    //        { "key": "following_text", "operator": "regex_contains", "operand": "^[)\\]'\"]", "match_all": true },
+    //        { "key": "preceding_text", "operator": "regex_contains", "operand": "[(['\"]", "match_all": true },
+    //        { "key": "auto_complete_visible", "operator": "equal", "operand": false }
+ //         ]
+    // },
+
+    // { "keys": ["tab"], "command": "move",
+    //  "args": {"by": "characters", "forward": true},
+ //         "context":
+ //         [
+    //        { "key": "following_text", "operator": "regex_contains", "operand": "^[)\\]'\"]", "match_all": true },
+    //        { "key": "preceding_text", "operator": "regex_contains", "operand": "[(['\"]", "match_all": true },
+    //        { "key": "auto_complete_visible", "operator": "equal", "operand": false }
+ //         ]
+    // },
+    // { "keys": ["("], "command": "smart_brackets_add", "args": {"bracket": "("} },
+    // { "keys": ["["], "command": "smart_brackets_add", "args": {"bracket": "["} },
+    // { "keys": ["{"], "command": "smart_brackets_add", "args": {"bracket": "{"} },
+    // { "keys": ["<"], "command": "smart_brackets_add", "args": {"bracket": "<"} },
+
+    // { "keys": [")"], "command": "smart_brackets_add", "args": {"bracket": "("} },
+    // { "keys": ["]"], "command": "smart_brackets_add", "args": {"bracket": "["} },
+    // { "keys": ["}"], "command": "smart_brackets_add", "args": {"bracket": "{"} },
+    // { "keys": [">"], "command": "smart_brackets_add", "args": {"bracket": "<"} },
+
+    // { "keys": ["\""], "command": "smart_brackets_add", "args": {"bracket": "\""} },
+    // { "keys": ["'"], "command": "smart_brackets_add", "args": {"bracket": "'"} }
+]

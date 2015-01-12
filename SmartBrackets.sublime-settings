@@ -1,0 +1,21 @@
+{
+	"brackets": [
+		{
+			"bracket": "()"
+		}, {
+			"bracket": "[]"
+		}, {
+			"bracket": "{}"
+		}, {
+			"bracket": "\"",
+			"bracket_escape": "\\",
+			"escape_escape": "\\"
+		}, {
+			"bracket": "'",
+			"bracket_escape": "\\",
+			"escape_escape": "\\"
+		}
+	],
+	//Debug message
+	"debug" : false
+}
